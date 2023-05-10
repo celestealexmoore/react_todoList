@@ -1,3 +1,38 @@
 .todosParent {
-    margin-top: 50px;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.indTask {
+  display: flex;
+  flex-flow: row nowrap;
+  align-self: center;
+  align-items: center;
+  width: 60%;
+  border-bottom: 1px solid #dcd9d9;
+  padding: 15px;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.completed {
+  color: rgb(145, 143, 143);
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+.deleteBtn {
+  margin-left: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ececec;
+}
+
+.deleteBtn:hover {
+  background-color: #d3d3d3;
 }
