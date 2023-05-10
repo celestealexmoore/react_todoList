@@ -10,7 +10,6 @@
   flex-flow: row nowrap;
   align-self: center;
   align-items: center;
-  width: 60%;
   border-bottom: 1px solid #dcd9d9;
   padding: 15px;
 }
@@ -35,4 +34,16 @@
 
 .deleteBtn:hover {
   background-color: #d3d3d3;
+}
+
+@media screen and (min-width: 320px) {
+  .indTask {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 665px) {
+  .indTask {
+    width: 60%;
+  }
 }
